@@ -1,8 +1,11 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import image from "../assets/plantingImage.png";
 import { useEffect } from "react";
+import { useContext } from "react";
+import { ModalContext } from "../context.js";
 
 export default function ThankYouPage() {
+  const { productObj } = useContext(ModalContext);
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const handleClick = () => {
@@ -15,7 +18,7 @@ export default function ThankYouPage() {
   return (
     <div>
       <div className="thankyou-image-container">
-        <h1>Thank you.....!!!</h1>
+        <h1>Thank you for your interest in {productObj.commonName}</h1>
         <p>
           <em>“A beautiful plant is like having a friend around the house.”</em>
           <br />

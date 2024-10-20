@@ -11,6 +11,7 @@ const ProductListItem = ({ details }) => {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate("/thankyou");
+    setProductObj(details);
   };
   const handleModal = () => {
     setModal(!isOpen);

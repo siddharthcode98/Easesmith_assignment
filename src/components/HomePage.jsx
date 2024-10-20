@@ -1,4 +1,5 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { nurseryData, plantData } from "../mockData.js";
 import NurseryListItem from "./NurseryListItem.jsx";
 import ProductListItem from "./ProductListItem.jsx";
@@ -11,6 +12,11 @@ export default function HomePage() {
   const [index, setIndex] = useState(10);
   const [plantDataList, setPlantDataList] = useState(plantData);
   const { isOpen } = useContext(ModalContext);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   const handleClick = () => {
     setIndex((prevIndex) => prevIndex + 10);
