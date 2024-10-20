@@ -20,8 +20,8 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
-  z-index: 999; /* Just below the modal */
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 .thumbnail-modal {
   width: 200px;
@@ -50,6 +50,7 @@
   border-style: none;
   height: 37px;
   margin-top: auto;
+  cursor: pointer;
 }
 .your-cart {
   text-align: center;
@@ -63,4 +64,5 @@
   background-color: transparent;
   border-style: none;
   align-self: flex-end;
+  cursor: pointer;
 }

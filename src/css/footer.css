@@ -35,6 +35,7 @@
   background-color: var(--green-color-1);
   color: var(--white-color);
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .subscribe-input {
