@@ -1,0 +1,54 @@
+@import url("./css/fonts.css");
+@import url("./css/home.css");
+@import url("./css/header.css");
+@import url("./css/thankyou.css");
+@import url("./css/productListItem.css");
+@import url("./css/NurseryListItem.css");
+@import url("./css/modal.css");
+@import url("./css/footer.css");
+
+:root {
+  --green-color-light: #f0ffe5;
+  --green-color-dark: #165315;
+  --green-color-text-1: #0f4811;
+  --green-color-text-2: #144d14;
+  --green-color-1: #247822;
+  --gray-color-1: #a8a8a8;
+  --gray-color-2: #6e6e6e;
+  --gray-color-3: #6a6a6a;
+  --gray-color-4: #999999;
+  --text-gray-color-1: #838383;
+  --text-gray-color-2: #a5a1a1;
+  --text-gray-color-3: #5e5a5a;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --orange-color: #f3a939;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-weight: 400;
+  background-color: var(--white-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+p {
+  margin: 0;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

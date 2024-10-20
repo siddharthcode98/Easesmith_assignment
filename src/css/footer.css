@@ -1,0 +1,75 @@
+.footer-container {
+  margin-top: 44px;
+  background-color: var(--green-color-light);
+}
+
+.footer-container h3 {
+  color: var(--black-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-container p {
+  color: var(--gray-color-4);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-start {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 64px 89px 0px 112px;
+  gap: 10px;
+}
+
+.footer-start p {
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-start button {
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: var(--green-color-1);
+  color: var(--white-color);
+  margin-top: 15px;
+}
+
+.subscribe-input {
+  width: 269px;
+  height: 35px;
+  border: 1.5px solid var(--gray-color-4);
+}
+.subscribe-input::placeholder {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.footer-middle {
+  padding: 10px 89px 0px 112px;
+  margin-bottom: 20px;
+}
+.footer-middle p {
+  font-weight: 400;
+  font-size: 400;
+}
+.footer-end {
+  padding: 10px 89px 0px 112px;
+  margin-bottom: 20px;
+}
+.icon-container {
+  display: flex;
+  gap: 23px;
+}
+.website-link {
+  border-top: 1px solid var(--gray-color-4);
+}
+.website-link p {
+  padding-left: 112px;
+  margin-top: 17px;
+  color: var(--gray-color-1);
+  padding-bottom: 53px;
+}

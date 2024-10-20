@@ -1,0 +1,66 @@
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 600px;
+  background-color: var(--green-color-light);
+  min-height: 300px;
+  width: 500px;
+  -webkit-box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+  z-index: 999; /* Just below the modal */
+}
+.thumbnail-modal {
+  width: 200px;
+  flex-grow: 1;
+}
+.modal-product {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.modal-text h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.modal-text button {
+  width: 100%;
+  background-color: var(--green-color-dark);
+  color: var(--white-color);
+  font-weight: 600;
+  border-style: none;
+  height: 37px;
+  margin-top: auto;
+}
+.your-cart {
+  text-align: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--green-color-text-1);
+  border-bottom: 1px solid var(--gray-color-3);
+}
+.modal-closing-btn {
+  background-color: transparent;
+  border-style: none;
+  align-self: flex-end;
+}

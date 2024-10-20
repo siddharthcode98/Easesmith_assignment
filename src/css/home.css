@@ -1,0 +1,121 @@
+.btn {
+  width: 114px;
+  height: 37px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.green-btn {
+  background-color: var(--green-color-dark);
+  color: var(--white-color);
+  font-weight: 600;
+  border-style: none;
+  -webkit-box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+}
+.grey-btn {
+  background-color: transparent;
+  font-weight: 300;
+  border: 1px solid var(--black-color);
+  opacity: 30%;
+  margin-left: 11px;
+  -webkit-box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 9px 19px -4px rgba(0, 0, 0, 0.75);
+}
+
+.section-1 {
+  margin-top: 55px;
+  padding-left: 70px;
+  padding-right: 58px;
+}
+.section-1 p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-gray-color-1);
+  margin-top: 25px;
+  height: 99px;
+  width: 100%;
+  max-width: 1238px;
+}
+.section-2 {
+  padding-left: 70px;
+  padding-right: 58px;
+}
+.section-2 h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black-color);
+  margin-top: 4px;
+}
+
+.section-2 ul {
+  display: flex;
+  gap: 81px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: scroll;
+  margin-top: 27px;
+  scrollbar-width: thin;
+}
+
+.section-3 {
+  display: grid;
+  grid-template-columns: 304px 2fr;
+  padding-left: 70px;
+  padding-right: 58px;
+  margin-top: 50px;
+  gap: 52px;
+}
+.filter-container p {
+  font-family: "Inter";
+  color: var(--gray-color-2);
+  font-weight: 400;
+}
+.filter-container li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-color-1);
+  padding: 15px;
+}
+.filter-container ul {
+  padding: 18px 21px;
+  margin: 0px;
+}
+.filter-container ul li:last-child {
+  border-bottom: 0px;
+}
+.filter-container {
+  background-color: var(--green-color-light);
+  height: 715px;
+}
+.filter-container button {
+  background-color: transparent;
+  border-style: none;
+  color: var(--gray-color-2);
+}
+
+.sorting-container {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.sorting-container p {
+  font-size: 15px;
+  color: var(--gray-color-3);
+}
+.select-container {
+  background-color: var(--green-color-dark);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white-color);
+  padding: 6px 7px;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 42px;
+  margin-top: 35px;
+}
+

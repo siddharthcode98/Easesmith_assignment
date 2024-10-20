@@ -1,0 +1,15 @@
+.nursery-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nursery-list-item p {
+  width: 172px;
+  text-align: center;
+}
+.nursery-list-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  object-fit: cover;
+}

@@ -1,0 +1,89 @@
+.header-contact-num {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--green-color-dark);
+  color: var(--white-color);
+  padding: 8px 50px;
+}
+
+.phone-num {
+  text-align: end;
+}
+
+.header-menu-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+.brand-logo {
+  height: 61px;
+  width: 60px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.logo-container p {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: var(--green-color-text);
+  font-size: 25px;
+}
+.menu-container {
+  display: flex;
+  gap: 33px;
+}
+.menu-container a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black-color);
+}
+.menu-container a:hover {
+  color: var(--orange-color);
+  border-bottom: 1px solid var(--orange-color);
+}
+.profile-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+.icons-container p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+.search-input {
+  border: none;
+  outline: none;
+  width: 370px;
+  height: 26px;
+}
+.search-input::placeholder {
+  font-size: 16px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.search-bar {
+  border-bottom: 1px solid;
+  border-color: var(--black-color);
+  opacity: 60%;
+  display: flex;
+  align-items: center;
+}
+.search-plant {
+  width: 32px;
+  height: 25px;
+}
