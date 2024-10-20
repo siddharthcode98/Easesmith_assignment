@@ -6,28 +6,22 @@ I have successfully completed the assignment. This assignment gave me an opportu
 
 There are Three Folders we have to consider in this project they are `assets`,`components` and `css`. as the name suggests
 
-- > `assets` folder contains all the png that I have used in the entire project
-- > `components` folder contains all the jsx files that I have used in the entire project
-- > `css` folder contains all the x that I have used in the entire project
+> `assets` folder contains all the png that I have used in the entire project
+> `components` folder contains all the jsx files that I have used in the entire project
+> `css` folder contains all the x that I have used in the entire project
 
 In the `components` folder, There are 7 jsx files namely
 
-- Header.jsx -
-  > -contains all the menubar,Search bar,company logo with userprofile logo and cart logo
-- HomePage.jsx
-  > - contains nursery list and product listing with pagination(`view more`)
-- NurseryListItem.jsx
-  > - contains the code for single nursery list Item.
-- ProductListItem.jsx
-  > - contains code for single product list item.
-- Modal.jsx
-  > - contains all the code related to modal,to develop
-- ThankYouPage.jsx
-  > - contains all the code related to thank you page,
-- Footer.jsx
-  > - contains all the details of the organisation.
-  >   In the `css` folder you can see all the css is written separatly for individual component,also I have used same name as components for css file.
-  > - all these files are imported into global `index.css`
+> Header.jsx - contains all the menubar,Search bar,company logo with userprofile logo and cart logo
+> HomePage.jsx- contains nursery list and product listing with pagination(`view more`)
+> NurseryListItem.jsx - contains the code for single nursery list Item.
+> ProductListItem.jsx - contains code for single product list item.
+> Modal.jsx - contains all the code related to modal,to develop
+> ThankYouPage.jsx - contains all the code related to thank you page,
+> Footer.jsx - contains all the details of the organisation.
+
+- In the `css` folder you can see all the css is written separatly for individual component,also I have used same name as components for css file.
+- all these files are imported into global `index.css`
 
 ## - Routing
 
