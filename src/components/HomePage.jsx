@@ -107,7 +107,7 @@ export default function HomePage() {
             </li>
           </ul>
         </div>
-        <div>
+        <div style={{ height: "100vh", overflowY: "scroll" }}>
           <div className="sorting-container">
             <p>30 Products</p>
             <select className="select-container" onChange={handleChange}>
